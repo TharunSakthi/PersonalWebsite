@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+*,html,body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 2;
+  position: relative;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.mainimg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 99%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.python{
+  position: absolute;
+  top: 420px;
+  left: 550px;
+  height: auto;
+  width: 130px;
+  z-index: 2;
+}
+
+.hhtml{
+  position: absolute;
+  top: 420px;
+  left: 730px;
+  height: auto;
+  width: 120px;
+  z-index: 2;
+}
+
+.csss{
+  position: absolute;
+  top: 419px;
+  left: 930px;
+  height: auto;
+  width: 92px;
+  z-index: 2;
+}
+
+.java{
+  position: absolute;
+  top: 380px;
+  left: 1080px;
+  height: auto;
+  width: 110px;
+  z-index: 2;
+}
+
+.cpde{
+  position: absolute;
+  top: 380px;
+  left: 1200px;
+  height: auto;
+  width: 220px;
+  z-index: 2;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  font-weight: 300;
+  font-size: 60px;
+  color: white;
+  top: 700px;
+  left: 320px;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  font-weight: 300;
+  font-size: 60px;
+  color: white;
+  top: 700px;
+  left: 1300px;
+}
+
+h5{
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  font-weight: 300;
+  font-size: 60px;
+  color: white;
+  top: 1200px;
+  left: 745px;
+}
+
+h6{
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  font-weight: 600;
+  font-size: 60px;
+  color: white;
+  top: 300px;
+  left: 745px;
+}
+
+.hero{
+  position: absolute;
+  top: 0;
+  left: 324px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  padding-right: 10px;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 37px;
+  padding-left: 20px;
+  padding-right: 10px;w
+}
+
+.logo{
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  left: -250px; 
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.niv{
+  padding-right: 60px;
+  padding-left: 20px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+
+}
+
+ul{
+  margin-left: 901px;
+}
+
+
+
+
